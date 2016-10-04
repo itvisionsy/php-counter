@@ -1,0 +1,20 @@
+{
+  "name": "itvisionsy/counter",
+  "description": "Simple PHP counter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhannad Shelleh",
+      "email": "muhannad.shelleh@itvision-sy.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ItvisionSy\\Counter\\": "/src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
